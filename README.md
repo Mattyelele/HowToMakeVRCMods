@@ -48,6 +48,25 @@ public static class BuildInfo
     }
 ```
 
+Now in AssemblyInfo.cs you will need to add a few things such as
+
+```
+using System.Reflection;
+using MelonLoader;
+
+[assembly: AssemblyTitle([NameSpace].BuildInfo.Description)]
+[assembly: AssemblyDescription([NameSpace].BuildInfo.Description)]
+[assembly: AssemblyCompany([NameSpace].BuildInfo.Company)]
+[assembly: AssemblyProduct([NameSpace].BuildInfo.Name)]
+[assembly: AssemblyCopyright("Created by " + ClassLibrary1.BuildInfo.Author)]
+[assembly: AssemblyTrademark([NameSpace].BuildInfo.Company)]
+[assembly: AssemblyVersion([NameSpace].BuildInfo.Version)]
+[assembly: AssemblyFileVersion([NameSpace].BuildInfo.Version)]
+[assembly: MelonInfo(typeof([NameSpace].Class1), [NameSpace].BuildInfo.Name, [NameSpace].BuildInfo.Version, [NameSpace].BuildInfo.Author, [NameSpace].BuildInfo.DownloadLink)]
+[assembly: MelonColor()]
+[assembly: MelonGame(null, null)]
+```
+
 After you've added the buildinfo now you will need to add at the end of 'Public class class1' you will want to add a space then put ': MelonMod'
 
 ## MelonLoader Logging <a name = "melonloaderlogging"></a>
@@ -61,6 +80,9 @@ Public override void OnApplicationStart()
 }
 ```
 
+Now you can build the mod and place your mod into your mods folder and start up VRChat. If you look in the MelonLoader console you'll see a line from your mod saying "Hello VRChat" and if you've done that then your project is set up correctly.
+
+![vrc mod log](https://elele.dev/i/lAJu0/lEjINECI01.png/raw)
 
 ## ✍️ Authors <a name = "authors"></a>
 
