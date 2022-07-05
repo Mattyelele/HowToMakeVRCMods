@@ -30,7 +30,12 @@ This is my guide on how to make VRChat Mods for MelonLoader. I decided to make t
 
 ## SetUp <a name = "Setup"></a>
 
-First of all you'll need to create a 'Class Library (.NET Framework)' and set the framework to '.NET Framework 4.7.2'. Once you've created the project you will need to add MelonLoader.dll and UIExpansionKit.dll as References, After you've done that you will then need to add it to the top of your file by doing 'using MelonLoader;' and 'using UIExpansionKit.API;'
+First of all you'll need to create a 'Class Library (.NET Framework)' and set the framework to '.NET Framework 4.7.2'. Once you've created the project you will need to add MelonLoader.dll and UIExpansionKit.dll as References, After you've done that you will then need to add it to the top of your file .cs main file
+
+```
+using MelonLoader;
+using UIExpansionKit.API;
+```
 
 ## MelonLoader setup <a name = "melonloaderstart"></a>
 
