@@ -72,7 +72,14 @@ using MelonLoader;
 [assembly: MelonGame(null, null)]
 ```
 
-After you've added the buildinfo now you will need to add at the end of 'Public class class1' you will want to add a space then put ': MelonMod'
+After you've added the buildinfo now you will need to add at this in the main .cs file
+
+```
+Public class class1 : MelonMod
+{
+
+}
+```
 
 ## MelonLoader Logging <a name = "melonloaderlogging"></a>
 
