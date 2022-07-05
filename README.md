@@ -23,10 +23,10 @@ This is my guide on how to make VRChat Mods for MelonLoader. I decided to make t
 | VRChat with melonloader installed  |
 | Visual Studio with C# installed |
 
-| Dlls  |
-| ------------- |
-| MelonLoader.dll |
-| UIExpansionKit.dll |
+| Dlls  | Where to find |
+| ------------- | ------------- |
+| MelonLoader.dll  | [VRChat install location]/MelonLoader/MelonLoader.dll   |
+| UIExpansionKit.dll  | https://github.com/knah/VRCMods/releases |
 
 ## SetUp <a name = "Setup"></a>
 
