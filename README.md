@@ -67,7 +67,7 @@ using MelonLoader;
 [assembly: AssemblyTrademark([NameSpace].BuildInfo.Company)]
 [assembly: AssemblyVersion([NameSpace].BuildInfo.Version)]
 [assembly: AssemblyFileVersion([NameSpace].BuildInfo.Version)]
-[assembly: MelonInfo(typeof([NameSpace].Class1), [NameSpace].BuildInfo.Name, [NameSpace].BuildInfo.Version, [NameSpace].BuildInfo.Author, [NameSpace].BuildInfo.DownloadLink)]
+[assembly: MelonInfo(typeof([NameSpace].BuildInfo), [NameSpace].BuildInfo.Name, [NameSpace].BuildInfo.Version, [NameSpace].BuildInfo.Author, [NameSpace].BuildInfo.DownloadLink)]
 [assembly: MelonColor()]
 [assembly: MelonGame(null, null)]
 ```
